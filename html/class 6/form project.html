@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in html</html></title>
+</head>
+<body bgcolor="pink">
+<form>
+    <fieldset>
+    <legend><h1>please fill the form before you visit our office</h1></legend>
+    <label for="username">username</label><br>
+    <input type="text" id="username" name="username" placeholder="enter your username" required><br><br>
+    <label for="email">enter your email adress</label><br>
+    <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+    <label for="password">enter your passwor</label><br>
+    <input type="password" id="password" name="password" placeholder="enter your password" maxlength="8" minlength="6" required pattern="A-Za-z"><br><br>
+    <label for="phone">enter your phone number</label><br>
+    <input type="tel" id="phone" name="phone" required ><br><br>
+    <label for="birthday">enter your birthday</label><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <label for="gender">select your gender</label><br>
+    <input type="radio" id="gender" name="gender">male<br>
+    <input type="radio" id="gender" name="gender">female<br><br>
+    <label for="country">select your country</label>
+    <select>
+        <option>turkey</option>
+        <option>afghanistan</option>
+        <option>egypt</option>
+        <option>india</option>
+    </select><br><br>
+    <label for="fcountrys">chose youe favorate countrys</label><br>
+    <input type="checkbox" id="fcountrs">us<br>
+    <input type="checkbox" id="fcountrys">canada<br>
+    <input type="checkbox" id="fcountrys">brazil<br>
+    <input type="checkbox" id="fcountrys">afghanidtan<br>
+
+    <label for="submit"></label>
+    <input type="submit">
+    <label for="reset"></label>
+    <input type="reset"><br><br>
+    <label for="file">upload your picture</label><br>
+    <input type="file" id="file" required> <br><br>
+    <label for="age">age</label><br>
+    <input type="number" min="18" max="40" step="10">
+
+    </fieldset>
+    
+</form>
+</body>
+</html>
