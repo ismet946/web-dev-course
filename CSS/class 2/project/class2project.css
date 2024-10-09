@@ -1,0 +1,32 @@
+header {
+
+    background-image: url(../../class1/project/medya/new\ pic.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainh {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#p1 {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#p2 {
+    background: radial-gradient(rgba(0, 255, 0, .5),
+        rgba(187, 28, 196, 0.5));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p3 {
+    background: linear-gradient(to left, rgba(25, 210, 239, 0.5), rgba(55, 183, 15, 0.579));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
