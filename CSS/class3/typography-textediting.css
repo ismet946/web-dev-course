@@ -1,0 +1,50 @@
+h1{
+    color: aqua;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+p{
+    color: aqua;
+    font-size: 20px;
+    text-decoration:overline;
+    text-transform: lowercase;
+}
+
+h3{
+    color: blue;
+    font-family: cursive;
+    text-decoration: line-through;
+    text-transform: uppercase;
+
+}
+
+h2{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline overline;
+    text-transform: none;
+}
+h4{
+    text-shadow: 2px 2px 5px red;
+}
+
+h5{
+    box-shadow: 5px 2px 10px blue;
+}
+
+h6{
+
+    text-indent: 300px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+
+}
+#a{
+    background-color: brown;
+    transform: rotateX(180deg);
+}
