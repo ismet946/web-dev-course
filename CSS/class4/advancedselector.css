@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    color: azure;
+}
+a{
+    text-decoration:none;
+    color: brown;
+}
+a:hover{
+    color:aquamarine;
+}
+ul>li{
+    font-weight: bold;
+}
+h1,p{
+    background-color: yellow;
+}
+ul li:hover{
+    color: brown;
+}
+ul li:nth-child(1){
+    background-color:rgb(115, 135, 104);
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"🚀" ;
+}
+a::after{
+    content: "🌌";
+
+}
+p::first-letter{
+    font-size: 250%;
+    color: red;
+}
