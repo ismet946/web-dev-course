@@ -1,0 +1,36 @@
+.container{
+    border: 4px solid blue;
+    width: 300px;
+    padding:15px;
+    margin:20px;
+    border-radius: 10px;
+    float: left;
+}
+
+img{
+    width:100%;
+    border-radius:5%;
+}
+h1{
+    margin-left:40px;
+    font-size:large;
+    background: linear-gradient(to left,rgba(24, 231, 24, 0.504), rgba(220, 130, 184, 0.466), rgba(144, 216, 134, 0.433));
+    width: 220px;
+    border-radius: 10px;
+    
+
+}
+
+p{
+    text-align:justify;
+}
+
+#pic2{
+    border: 4px solid blue;
+        width: 300px;
+        padding: 15px;
+        margin: 20px;
+        border-radius: 10px;
+        float: left;
+    }
+}
