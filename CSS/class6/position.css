@@ -1,0 +1,37 @@
+.a{
+    background-color:aqua;
+    position:static;
+    width:200px;
+    top:40px;
+    left:50px;
+}
+
+.b{
+    background-color:bisque;
+    position:fixed;
+    top:50px;
+    right:80px;
+    width:200px;
+}
+
+.c{
+    border:5px solid blue;
+    position:sticky;
+    width:200px;
+    top:30px;
+    left:40px;
+}
+.d{
+    border: 5px solid green;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width:300px;
+}
+.e{
+    border: 5px solid yellow;
+    position:absolute;
+    width: 300px;
+    top:20px;
+    left:50px;
+}
