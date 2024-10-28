@@ -1,0 +1,165 @@
+*{
+    text-align:center
+    
+}
+body{
+        background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+#header-box{
+   /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);*/
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    margin-top:0;
+    padding-top:20px;
+    box-shadow: #dddcd7 10px;
+    border-radius: 20px;
+}
+
+
+header{
+    width:30%;
+    height:50px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+nav{
+  margin-top:10px
+}
+a{
+    margin-right:10px;
+    padding:0 2px;
+    border-radius: 4px;
+    margin-top:30px;
+
+}
+.mainh{
+    text-align:center;  
+    border-radius:20px;
+    width:fit-content;
+    margin-left: 39%;
+    margin-top:30px;
+    color:white;
+    font-family:'Times New Roman', Times, serif
+}
+
+#intro-box{
+    border-radius: 20px; box-shadow: 10px 10px #dddcd7;
+}
+
+#box-div{
+    height:300px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.boxingm{
+    float:right;
+    padding-top:20px;
+    padding-right:20px;
+    
+}
+
+img{
+    border-radius:10px
+}
+
+.boxingt{
+    width:500px;
+    font-size:1.1rem;
+    padding-top:20px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#wrestling-box {
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius:20px;
+}
+
+.wrestlingm {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.wrestlingt{
+    width: 500px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#tekwando-box {
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius:20px
+
+}
+
+.tekwandom {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.tekwandot {
+    width: 500px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#muaythai-box {
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+}
+
+.muaythaim {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.muaythait {
+    width: 500px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#jujitsu-box {
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+}
+
+.jujitsum {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.jujitsut {
+    width: 500px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#footer{
+    border-radius: 20px;
+}
