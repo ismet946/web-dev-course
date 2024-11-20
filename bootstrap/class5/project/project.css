@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: black;
+}
+
+ul .nav-link {
+    background-color:white ;
+    border-radius: 10px;
+    margin-inline-start: 5px;
+    color:black;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul .nav-link:hover{
+    color: rgb(78, 75, 57);
+}
+
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    transition-duration: 0.4s;
+}
+.navbar-brand:hover{
+    text-decoration:underline white;
+}
+
+#header{
+    background-image: url(./images/top.bg.jpeg);
+    height: 30rem; 
+    background-size: cover;
+    background-position:center; 
+    text-align:center;
+}
+
+.txt-box1{
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+
+    width: max-content;
+    
+}
+
+.txt-box1 p::first-letter{
+    font-size:3rem;
+    font-weight:500
+}
+.card{
+    border-radius:20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    overflow:hidden;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15), 0 12px 24px rgba(255, 255, 255, 0.15);
+}
+
+.card h5{
+    font-size: 3rem; 
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+}
