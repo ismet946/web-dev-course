@@ -169,7 +169,38 @@
 <section id="about-b">
   <div class="container-fluid">
     <div class="card">
-      <img class="card-img-bottom" src="https://sc02.alicdn.com/kf/Ha0018198316e4db59d3ad38b2ba33ee1P/205885801/Ha0018198316e4db59d3ad38b2ba33ee1P.jpg" style="height:100%">
+    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <!-- Indicators/Dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.ytimg.com/vi/GB2uH7rPrzc/maxresdefault.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://assets.newatlas.com/dims4/default/977621d/2147483647/strip/true/crop/1661x1107+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fd4%2Fd2%2F6339d96340b8a72f727e27e9a315%2Fishtank200dpi20photo20ictor20obanov.jpeg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/06/26133439/36473113002_c2804c55dd_o-1200x800.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
       <div class="card-body">
         <h3 class="card-title" id="about-t">"Production stages and about us"</h3>
         <div class="hero">
