@@ -63,3 +63,12 @@ ul .nav-link:hover{
     font-family:'Times New Roman', Times, serif;
     color: aliceblue;
 }
+@media screen and (max-width:600px){
+    .card{
+        margin-left: 30px;
+        margin-top:20px;
+        min-width: 400px;
+    }
+   
+  
+}
